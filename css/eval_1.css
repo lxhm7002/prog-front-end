@@ -1,0 +1,101 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#pagina_completa {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo de Tarjeta (Los Cuadros) */
+.tarjeta-cv {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Encabezado */
+#banner_superior {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#superior_izquierdo #imagen_superior {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+#superior_derecho h1 {
+    margin: 0;
+    color: #333;
+}
+
+#superior_derecho p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Contenedor Principal (Dos Columnas) */
+#contenedor_principal {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#principal_izquierda {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#principal_derecha {
+    flex: 1;
+}
+
+/* Estilos de los Cuadros */
+h3 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Pie de Página (Contacto) */
+#pie_pagina {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.div_pie_pagina {
+    font-weight: bold;
+    color: #555;
+}
